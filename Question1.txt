@@ -1,0 +1,80 @@
+1.What is Java??
+ans:-Java is a object-oriented, high level programming language, and it is interpredited language and it is high level-security language.
+
+2.Explain how java file will be executed?
+Ans:-In java, when the programmer write a program first he will convert the source code to byte with the help of complier and if the code have any mistake it will show error and it will not executed
+and after solving the error and then we complie and run the code.
+(Syntax: javac filename.java this is for compling and java filename for executing)
+
+3.What is data type and Explain types of data type?
+Ans:-In java data types means for example if we want to declare a numeric variable with the help of variable we use int data type and for decimal we use double and many more.
+if we talk about types their are 2 types
+1.primitive data type
+2.non-primitive data type
+
+in primitive data type which is also used to assign the data with help of variablename like for example(here i will write all the types of data type with example)
+class DataTypes{
+public static void main(String[] dataTypes){
+int a = 1;
+double b = 11.90;
+float c = 23.00f;
+byte d = 100;
+short e = 250;
+boolean f = true/false;
+char g = 'N';
+long h = 79374846484l;
+String hi = "Hello, String is not primitive data type but we can use";
+
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+System.out.println(d);
+System.out.println(e);
+System.out.println(f);
+System.out.println(g);
+System.out.println(h);
+System.out.println(hi);
+}
+}
+
+if we talk about non primitive data types they are String, array and many more etc...
+
+
+4.What is variable Explain Types of variable?
+Ans:-Variable in java refers to the value which is assigned for data types or anything that method details which hold that is called as variable.
+example:- int z = 200;
+here the z which is their its called as variable name.
+
+their are 4 types of variable:-
+1.local variable
+2.static variable
+3.Instance variable
+4.parameterized variable
+
+1.local variable: it is a type of variable which can be only accessed inside the main method and same class.
+2.static variable: it is a type of variable where it can declared outside the class and can be called in same class and different class with the help of class name and 
+variablename.and static is the keyword of static variable.
+3.Instance variable: it is a type of variable where it can be declared outside the main method and can be called in runner class and without using any keyword.
+4.parameterised variable: it is a type of variable, which is the variable is declared in method parenthesis and intilized the value in other runner class 
+as assigning value in parenthesis.
+
+5.What is Array?
+Ans:-Array it is combination of multivalues which is stored in a single variable with the bases on index.
+
+6.What is method??Explain types of method.
+Ans:-Method is a block of code which do specific task as per we assign the task.
+the types of methods are,,,
+1.static method
+2.non static method
+
+in static method their are 2 types,,
+1.pre-defined method:-this method is already defined by the people who have made java and that cannot be changed like example static, main etc..
+2.user-defined method:-this method can be changed by the user and like example println etc
+
+with parameter with returntype
+with parameter no returntype
+no parameter with returntype
+no parameter no returntype
+
+7.What is constructor??
+Ans:-Constructor is a block of block of code which do specific task. in other words it helps the user to 
